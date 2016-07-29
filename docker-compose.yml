@@ -12,6 +12,7 @@ services:
     build: db
  rabbit:
     build: rabbit/new/
+    hostname: foo
     environment: 
      - CLUSTER_WITH=rabbit
     networks: 

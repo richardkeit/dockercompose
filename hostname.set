@@ -1,0 +1,1 @@
+dc ps | grep rabbit | awk '{print }' | tail -n1 | sed 's/2/3/g' 
