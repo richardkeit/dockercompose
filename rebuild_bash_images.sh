@@ -9,4 +9,4 @@ echo "Main script pwd is $PWD"
 cd /media/sf_git/private/DockerCompose/db/basepgbrm/
 sh /media/sf_git/private/DockerCompose/db/basepgbrm/build_base.sh
 cd /media/sf_git/private/DockerCompose/web/baseWebImage/
-sh web/baseWebImage/build_base.sh
+sh /media/sf_git/private/DockerCompose/web/baseWebImage/build_base.sh

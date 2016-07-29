@@ -3,23 +3,18 @@ MAINTAINER Richard Keit <rajkeit@gmail.com>
 
 ###### Used the base RabbitMQ image as it works well! #######
 
+## Built this and referenced on local as 
+## d build -t richardkeit/rabbitmq .
+
+
 ##### Set the ENV var to have the same cookie for clustering ##
 ENV RABBITMQ_ERLANG_COOKIE=richardrabbit
 
+## Same entry points and ports from the main dockerfile 
+COPY basiccluster.sh /
+WORKDIR /
 
-EXPOSE 1883
-EXPOSE 8883
-EXPOSE 5672
-EXPOSE 15672
-EXPOSE 25672
-EXPOSE 4369
-EXPOSE 9100
-EXPOSE 9101
-EXPOSE 9102
-EXPOSE 9103
-EXPOSE 9104
-EXPOSE 9105
+ENTRYPOINT ["/docker-entrypoint.sh"]
 
-ADD startclusternode.sh /var/lib/rabbitmq/startclusternode.sh
-ENTRYPOINT /var/lib/rabbitmq/startclusternode.sh
-
+EXPOSE 4369 5671 5672 25672
+CMD ["rabbitmq-server"]

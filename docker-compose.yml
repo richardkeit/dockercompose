@@ -10,10 +10,16 @@ services:
      - pgdb
  pgdb:
     build: db
-
+ rabbit:
+    build: rabbit/new/
+    environment: 
+     - CLUSTER_WITH=rabbit
+    networks: 
+     - rabbitnet
 
 volumes:
  share: {}
 
 networks:
  sharenet: {}
+ rabbitnet: {}

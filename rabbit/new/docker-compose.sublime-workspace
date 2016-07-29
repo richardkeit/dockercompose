@@ -1,0 +1,200 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rabbit",
+				"rabbit2"
+			],
+			[
+				"rabbi",
+				"rabbit2"
+			],
+			[
+				"rab",
+				"rabbit1"
+			],
+			[
+				"auth",
+				"authorized_keys"
+			],
+			[
+				"authori",
+				"authorized_keys"
+			],
+			[
+				"for",
+				"forin	for … in … done"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 72.0,
+		"selected_items":
+		[
+			[
+				"Package Control: docke",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control:sy",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/sf_git/private/DockerCompose/rabbit/docker-compose.yml",
+		"/media/sf_git/private/DockerCompose/docker-compose.yml",
+		"/media/sf_git/private/DockerCompose/db/basepgbrm/Dockerfile",
+		"/media/sf_git/private/DockerCompose/web/baseWebImage/build_bash.sh",
+		"/media/sf_git/private/DockerCompose/rebuild_bash_images.sh",
+		"/media/sf_git/private/DockerCompose/db/Dockerfile",
+		"/media/sf_git/private/DockerCompose/README.md",
+		"/media/sf_git/docker/DockerComposeRichardRabbit/docker-compose.yml",
+		"/media/sf_git/docker/DockerComposeRichardRabbit/new/Dockerfile",
+		"/media/sf_git/docker/DockerComposeRichardRabbit/new/startclusternode.sh",
+		"/media/sf_git/docker/DockerComposeRichardRabbit/new/basiccluster.sh",
+		"/media/sf_git/docker/DockerComposeRichardRabbit/new/file_commands.sh",
+		"/media/sf_git/private/docker/rabbitmq/readme.md",
+		"/media/sf_git/docker/DockerComposeRabbit/baserabbitimage/Dockerfile",
+		"/media/sf_git/docker/Barman/barman/Dockerfile",
+		"/root/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/root/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/media/sf_git/docker/Barman/basepgbrm/Dockerfile",
+		"/media/sf_git/docker/Barman/barman/startsshd.sh",
+		"/media/sf_git/docker/Barman/barman/docker-compose.yml",
+		"/media/sf_git/docker/Barman/barman/foldertest.sh",
+		"/media/sf_git/docker/DockerCompose/db/Dockerfile",
+		"/media/sf_git/docker/DockerCompose/docker-compose.yml",
+		"/media/sf_git/docker/DockerCompose/docker-compose.ymlbackup2",
+		"/media/sf_git/docker/Barman/db/Dockerfile",
+		"/root/anaconda-ks.cfg",
+		"/media/sf_git/docker/DockerCompose/web/app.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"```"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/media/sf_git/docker/DockerComposeRichardRabbit/new/baseimage/Rabbit.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true
+}
